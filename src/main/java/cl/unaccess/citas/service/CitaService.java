@@ -20,7 +20,7 @@ public class CitaService {
         c.setPacienteRut(dto.getPacienteRut());
         c.setProfesionalUsername(dto.getProfesionalUsername());
         c.setFechaHora(dto.getFechaHora());
-        c.setEstado("AGENDADA"); // Regla de negocio automática para la rúbrica
+        c.setEstado("AGENDADA"); 
         return repo.save(c);
     }
 

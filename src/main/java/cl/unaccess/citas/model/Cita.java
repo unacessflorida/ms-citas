@@ -12,9 +12,9 @@ public class Cita {
     private Long id;
 
     private String pacienteRut;
-    private String profesionalUsername; // Quién lo atiende (ej: matrona.marta)
-    private LocalDateTime fechaHora;     // Fecha y hora del control
-    private String estado;               // Ej: AGENDADA, CONFIRMADA, REALIZADA
+    private String profesionalUsername; 
+    private LocalDateTime fechaHora;    
+    private String estado;              
 
     public Cita() {}
 
